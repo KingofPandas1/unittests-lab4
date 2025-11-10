@@ -17,3 +17,17 @@ geometric_lib — это учебная библиотека для работы с простыми геометрическими фиг
 
 
 ## Пример использования
+```python
+from circle import *
+from square import area as square_area, perimeter as square_perimeter
+
+print(area(5))          # 78.54
+print(perimeter(5))     # 31.41
+print(square_area(4))   # 16
+print(square_perimeter(4))  # 16
+
+## История изменений
+- 2f79d87 2025-09-29 readme1.md
+- cf78fc2 2025-09-29 added documentation
+- d078c8d 2021-03-04 L-03: Docs added
+- 8ba9aeb 2021-03-04 L-03: Circle and square added
